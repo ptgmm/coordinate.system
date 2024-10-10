@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
+#include "distanceformula.h"
 
-int main(){
+void dis(double x1, double x2, double y1, double y2){
     double x1; //x1=
     double x2; //x2=
     double y1; //y1=
@@ -33,7 +34,6 @@ int main(){
             printf("%d", (int)finish); 
     }
 }
-    return 0;
 }
 
 
